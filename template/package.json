@@ -1,8 +1,9 @@
 {
-  "name": "ProjectName",
+  "name": "template",
   "version": "0.0.1",
   "private": true,
   "scripts": {
+    "start:android": "react-native run-android && react-native start",
     "android": "react-native run-android",
     "ios": "react-native run-ios",
     "lint": "eslint .",
@@ -11,7 +12,9 @@
   },
   "dependencies": {
     "react": "18.2.0",
-    "react-native": "0.71.2"
+    "react-native": "0.71.2",
+    "react-native-animated-splash-screen": "^2.0.5",
+    "react-native-responsive-screen": "^1.4.2"
   },
   "devDependencies": {
     "@babel/core": "^7.20.0",

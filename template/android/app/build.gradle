@@ -93,9 +93,9 @@ android {
 
     compileSdkVersion rootProject.ext.compileSdkVersion
 
-    namespace "com.projectname"
+    namespace "com.template"
     defaultConfig {
-        applicationId "com.projectname"
+        applicationId "com.template"
         minSdkVersion rootProject.ext.minSdkVersion
         targetSdkVersion rootProject.ext.targetSdkVersion
         versionCode 1
@@ -149,6 +149,11 @@ android {
 }
 
 dependencies {
+    // Gif Image 
+    implementation 'com.facebook.fresco:animated-gif:2.6.0'
+
+
+
     // The version of react-native is set by the React Native Gradle Plugin
     implementation("com.facebook.react:react-android")
 
