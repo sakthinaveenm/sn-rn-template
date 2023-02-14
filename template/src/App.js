@@ -3,6 +3,7 @@ import React from 'react';
 import Input from './components/common/Input';
 import {Debug} from './services/utility';
 import ChatDashboard from './screens/ChatDashboard';
+import Icon from 'react-native-vector-icons/FontAwesome';
 
 const App = () => {
   return <ChatDashboard />;

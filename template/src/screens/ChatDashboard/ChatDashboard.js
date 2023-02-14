@@ -6,15 +6,17 @@ import {PROFILE_IMG} from '../../assets/images';
 const ChatDashboard = () => {
   const {container} = styles;
   return (
-    <ScrollView style={container} showsVerticalScrollIndicator>
-      <ChatViewer
-        profileImage={PROFILE_IMG}
-        userName={'Vinoth'}
-        lastMessage={'Hello'}
-        lastMessageDate={'24/01/03'}
-        isActive={true}
-      />
-    </ScrollView>
+    <View style={container}>
+      <ScrollView style={container} showsVerticalScrollIndicator>
+        <ChatViewer
+          profileImage={PROFILE_IMG}
+          userName={'Vinoth'}
+          lastMessage={'Hello'}
+          lastMessageDate={'24/01/03'}
+          isActive={true}
+        />
+      </ScrollView>
+    </View>
   );
 };
 
