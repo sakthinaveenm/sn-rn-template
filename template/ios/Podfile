@@ -43,6 +43,11 @@ target 'template' do
     :app_path => "#{Pod::Config.instance.installation_root}/.."
   )
 
+
+  # Pod Files Here
+  pod 'RNFS', :path => '../node_modules/react-native-fs'
+
+
   target 'templateTests' do
     inherit! :complete
     # Pods for testing

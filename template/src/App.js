@@ -1,18 +1,15 @@
-import {StyleSheet, Text, View} from 'react-native';
-import React from 'react';
-import Input from './components/common/Input';
-import {Debug} from './services/utility';
-import ChatDashboard from './screens/ChatDashboard';
-import Icon from 'react-native-vector-icons/FontAwesome';
+import React, {useState} from 'react';
+import AppProviders from '@providers/AppProviders';
+import AppNavigation from '@navigations';
+import AppContainer from '@containers/AppContainer';
+import {View, Text} from 'react-native';
 
 const App = () => {
-  return <ChatDashboard />;
+  return (
+    <AppProviders>
+      <AppContainer>{/* <AppNavigation /> */}</AppContainer>
+    </AppProviders>
+  );
 };
 
 export default App;
-
-const styles = StyleSheet.create({
-  inputStyle: {
-    // borderWidth: 0,
-  },
-});
