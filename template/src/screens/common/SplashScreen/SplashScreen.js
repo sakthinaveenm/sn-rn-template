@@ -1,8 +1,8 @@
 /* eslint-disable react/react-in-jsx-scope */
 import {useEffect, useState} from 'react';
 import AnimatedSplash from 'react-native-animated-splash-screen';
-import Loading from '../Loading';
-import {SPLASH_SCREEN_IMG} from '../../../assets/images';
+import Loading from '@screens/common/Loading';
+import {SPLASH_SCREEN_IMG} from '@assets/images';
 import {
   widthPercentageToDP as wp,
   heightPercentageToDP as hp,

@@ -3,7 +3,11 @@ import {Platform, Dimensions, ToastAndroid, PixelRatio} from 'react-native';
 // External Packages
 import {useIsFocused as IsScreenFocused} from '@react-navigation/native';
 import DeviceInfo from 'react-native-device-info';
+
+export const isTablet = DeviceInfo.isTablet();
+
 const RNFS = require('react-native-fs');
+
 import AsyncStorage from '@react-native-async-storage/async-storage';
 
 export const isValidPhoneNo = phoneNo => {

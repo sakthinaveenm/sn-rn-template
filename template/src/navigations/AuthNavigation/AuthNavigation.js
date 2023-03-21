@@ -1,5 +1,6 @@
 import React from 'react';
 import {createNativeStackNavigator} from '@react-navigation/native-stack';
+import {SIGN_IN} from '@constants/navigation';
 
 const AuthNavigation = () => {
   const AuthStack = createNativeStackNavigator();

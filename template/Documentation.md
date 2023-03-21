@@ -1,5 +1,12 @@
 ### Important
 
+Node Version : v18.14.2
+npm: '9.5.0'
+openjdk 11.0.18 2023-01-17 LTS
+OpenJDK Runtime Environment Corretto-11.0.18.10.1 (build 11.0.18+10-LTS)
+OpenJDK 64-Bit Server VM Corretto-11.0.18.10.1 (build 11.0.18+10-LTS, mixed mode)
+Python 3.11.2
+
 Don't \"Remove/Delete/Move Folders\" from src folder as it was configured on babel-config.js and jsconfig.json
 
 ### configuration
@@ -91,6 +98,7 @@ Syntax :
 | react-native-safe-area-context            |         |     |
 | nativewind                                |         |     |
 | --dev tailwindcss                         |         |     |
+| @react-navigation/native-stack            |         |     |
 
 config tailwind css
 
